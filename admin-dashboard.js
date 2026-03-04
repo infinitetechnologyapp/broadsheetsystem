@@ -40,12 +40,12 @@ const FORM_TEACHERS = {
 // → Add: "js1teacher@brightschool.com": { subjects:["Basic Science"], classArms:["JS 1A","JS 1B"] }
 const SUBJECT_TEACHERS = {
   "brightunik12@gmail.com": {
-    subjects:  ["Civic Education", "PHE"],
-    classArms: ["JS 1A","JS 1B","JS 2A","JS 2B","JS 3A","JS 3B"]
+    subjects: ["Civic Education", "PHE"],
+    classArms: ["JS 1A", "JS 1B", "JS 2A", "JS 2B", "JS 3A", "JS 3B"]
   },
   "brightstephen02@gmail.com": {
-    subjects:  ["Chemistry", "Computer Science", "Data Processing"],
-    classArms: ["SS 1A","SS 1B","SS 2A","SS 2B","SS 3A","SS 3B"]
+    subjects: ["Chemistry", "Computer Science", "Data Processing"],
+    classArms: ["SS 1A", "SS 1B", "SS 2A", "SS 2B", "SS 3A", "SS 3B"]
   },
   // DUAL-ROLE EXAMPLE — form teacher who also teaches a subject:
   // "js1teacher@brightschool.com": {

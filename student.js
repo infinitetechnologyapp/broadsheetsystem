@@ -45,7 +45,7 @@ async function loadResult() {
 
     if (!student) { showError("Registration number not found. Please check and try again."); return; }
 
-    // ── APPROVAL CHECK ────────────────────────────────────────
+    // ── CLASS APPROVAL CHECK ──────────────────────────────────
     const approved = await isResultApproved(student.classArm, term);
     if (!approved) {
       S("loadingState").classList.add("hidden");
